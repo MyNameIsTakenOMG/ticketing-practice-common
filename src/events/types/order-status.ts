@@ -8,6 +8,6 @@ export enum OrderStatus {
   Cancelled = 'cancelled',
   // the order has successfully reserved the ticket
   AwaitingPayment = 'awaiting:payment',
-  // the order has reserved the ticket, and the user has paid the ticket successfully
+  // the order has reserved the ticket, and the user has paid the ticket successfully.
   Complete = 'complete',
 }
