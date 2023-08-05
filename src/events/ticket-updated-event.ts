@@ -8,5 +8,6 @@ export interface TicketUpdatedEvent {
     price: number;
     userId: string;
     version: number; // ticker version number
+    orderId?: string;
   };
 }
